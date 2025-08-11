@@ -8,14 +8,13 @@ export default function App() {
   return (
     <Router>
       <Navbar />
-      <Home />
       <Routes>
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
-
+        <Route path="/" element={<Home />} />
+        <Route path="/api/auth/login" element={<Login />} />
+        <Route path="/api/auth/register" element={<Signup />} />
       </Routes>
       <footer>
-        <div className="text-center  text-purple-900 py-4">
+        <div className="text-center text-purple-900 py-4">
           &copy; {new Date().getFullYear()} MiniSocial. All rights reserved.
         </div>
       </footer>

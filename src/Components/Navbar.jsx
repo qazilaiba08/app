@@ -36,7 +36,7 @@ export default function Navbar() {
           <>
             <Link
               to="/login"
-              className="px-4 py-2 rounded-lg bg-white/10 border border-purple-500/30 hover:bg-purple-500/30 transition"
+              className="px-4 py-2 rounded-lg text- bg-gray-400/10 border border-purple-500/30 hover:bg-purple-600/50 transition"
             >
               Login
             </Link>

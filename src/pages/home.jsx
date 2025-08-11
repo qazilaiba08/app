@@ -42,7 +42,7 @@ const Home = () => {
                 className="w-12 h-12 rounded-full border border-white/30"
               />
               <div>
-                <h3 className="font-semibold text-lg">User {post}</h3>
+                <h3 className="font-semibold text-lg">Sales Man {post}</h3>
                 <span className="text-sm text-gray-400">2 hrs ago</span>
               </div>
             </div>
